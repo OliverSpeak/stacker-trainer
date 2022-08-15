@@ -1345,10 +1345,11 @@ function trysubmitscore() {
     obj.score=score.toString();
     obj.name=playername;
     obj.replay=curreplaydata();
-
+/* Disable score submittion spamming because ranking.js is disables
     submitscore(obj);
   }else{
     submitscore(obj);
+    */
   }
 }
 
