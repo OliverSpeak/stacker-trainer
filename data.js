@@ -761,22 +761,22 @@ var mySettings = {
 var settings = mySettings; // initialized by reference; replaced when game starts and replay
 
 var settingName = {
-  DAS: "DAS 加速延迟",
-  ARR: "ARR 重复速率",
-  SoftDrop: "Soft Drop 软降速度",
-  Gravity: "Gravity 下落速度",
-  LockDelay: "Lock Delay 锁定延迟",
-  RotSys: "Rotation 旋转系统",
-  Next: "Next 预览块数",
-  Size: "Size 大小",
-  Sound: "Sound 声音",
-  Volume: "Volume 音量",
-  Block: "Block 样式",
-  Ghost: "Ghost 影子",
-  Grid: "Grid 网格",
-  Outline: "Outline 方块边缘",
-  DASCut: "DAS Cut 加速打断",
-  NextSide: "Next Side 预览位置"
+  DAS: "DAS",
+  ARR: "ARR",
+  SoftDrop: "Soft Drop",
+  Gravity: "Gravity",
+  LockDelay: "Lock Delay",
+  RotSys: "Rotation",
+  Next: "Next",
+  Size: "Size",
+  Sound: "Sound",
+  Volume: "Volume",
+  Block: "Block",
+  Ghost: "Ghost",
+  Grid: "Grid",
+  Outline: "Outline",
+  DASCut: "DAS Cut",
+  NextSide: "Next Side"
 };
 var setting = {
   DAS: dasNameArr,
