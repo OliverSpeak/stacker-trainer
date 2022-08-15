@@ -1105,10 +1105,10 @@ function gameLoop() {
         if (gameState === 2) {
           // Count Down
           if (frame === 0) {
-            $setText(msg,'各就各位\nREADY');
+            $setText(msg,'READY');
             sound.playse("ready");
           } else if (frame === ~~(fps*5/6)) {
-            $setText(msg,'走着~\nGO!');
+            $setText(msg,'GO!');
             sound.playse("go");
           } else if (frame === ~~(fps*10/6)) {
             $setText(msg,'');
