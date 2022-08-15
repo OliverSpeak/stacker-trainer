@@ -30,7 +30,7 @@ function Sound() {
       };
       for(var j=0;j<count;j++){
         var wave = document.createElement("AUDIO");
-        wave.src="se/"+bankname+"/"+iname+".mp3";
+        wave.src="se/"+bankname+"/"+iname+".wav";
         wave.load();
         dest[iname].insts.push(wave);
       }
